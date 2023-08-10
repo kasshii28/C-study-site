@@ -1,3 +1,4 @@
+import { Main } from "../../components/Main/Main";
 export default function Home() {
     return (
       <div className="
@@ -7,7 +8,10 @@ export default function Home() {
       overflow-hidden
       overflow-y-auto
       "
-      >  
+      >
+        <Main>
+          
+        </Main>  
       </div>
     )
 }

@@ -9,11 +9,7 @@ export const metadata = {
   description: 'C言語の基礎を学ぶ',
 }
 
-export default function RootLayout({ 
-  children 
-}: { 
-  children: React.ReactNode 
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='ja'>
       <body className={inter.className}>
