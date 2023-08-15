@@ -12,7 +12,10 @@ export function BoxSide({children, className}:BoxProps){
             bg-blue-600 
             rounded-none
             h-full 
-            w-72`
+            transition-all 
+            duration-300 
+            ease-in-out
+            ms:w-[100px]`
             , className)}
         >
             {children}
